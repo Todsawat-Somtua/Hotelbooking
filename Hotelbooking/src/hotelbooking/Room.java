@@ -14,20 +14,10 @@ public class Room {
     private String roomid = null;
     private boolean booked = false;
 
-    public Room(String roomid) {
-        this.roomid = roomid;
-    }
-    
-    String getRoomid(){
-        return this.roomid;
-    }
-    
-    void cancel(){
-        booked = false;
-    }
-    
-    boolean isBooked(){
-        return this.booked;
-    }
+    public Room(String roomid) {this.roomid = roomid;}
+    public String getRoomid(){return roomid;} 
+    public boolean isBooked(){return booked;}
+    public void cancel(){booked = false;}
+    public void setBooked(boolean booked) {this.booked = booked;}
     
 }

@@ -14,22 +14,22 @@ public class Client {
     private String firstname;
     private String lastname;
     private int bookingid;
-    private static int nextid;
+    private static int nextID;
 
     public Client(String firstname, String lastname) {
-        bookingid = ++nextid;
+        bookingid = ++nextID;
         this.firstname = firstname;
         this.lastname = lastname;
     }
     
-    String getFristname(){ return this.firstname; }
-    String getLastname(){ return this.lastname; }
-    int getId(){ return this.bookingid; }
-    void setFristname(String firstname){ this.firstname = firstname;}
-    void setLastname(String lastname){this.lastname = lastname;}
+    public String getFristname(){ return this.firstname; }
+    public String getLastname(){ return this.lastname; }
+    public int getId(){ return this.bookingid; }
+    public void setFristname(String firstname){ this.firstname = firstname;}
+    public void setLastname(String lastname){this.lastname = lastname;}
     
         @Override
     public String toString() {
-        return "Client (" + "firstname : " + firstname + ", lastname : " + lastname + ", Your booking ID is :" + bookingid + '}';
+        return "Client ( " + firstname +" "+ lastname + " Your booking ID is : " + bookingid + " }";
     }
 }
