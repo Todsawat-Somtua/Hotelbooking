@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package hotelbooking;
 
 /**
@@ -11,13 +6,28 @@ package hotelbooking;
  */
 public class Room {
 
-    private String roomid = null;
+    private int roomid;
     private boolean booked = false;
 
-    public Room(String roomid) {this.roomid = roomid;}
-    public String getRoomid(){return roomid;} 
-    public boolean isBooked(){return booked;}
-    public void cancel(){booked = false;}
-    public void setBooked(boolean booked) {this.booked = booked;}
-    
+    public Room(int roomid) {
+        this.roomid = roomid;
+    }
+
+    public int getRoomid() {
+        return roomid;
+    }
+
+    public boolean isBooked() {
+        return booked;
+    }
+
+    public void setBooked(boolean booked) {
+        this.booked = booked;
+    }
+
+    @Override
+    public String toString() {
+        String status = (booked) ? "Booked" : "Free";
+        return "Room " + roomid + " Booking Status : " + status;
+    }
 }
