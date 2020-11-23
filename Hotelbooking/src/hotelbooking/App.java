@@ -5,7 +5,6 @@ import java.util.Scanner;
 /**
  *
  * @author Ballistixd
- * @editor TeamzFactor
  */
 public class App {
 
