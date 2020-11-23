@@ -5,7 +5,6 @@ import java.util.ArrayList;
 /**
  *
  * @author Ballistixd
- * @editor TeamzFactor
  */
 public class RoomData {
 //    String[] roomid = new String[10];
