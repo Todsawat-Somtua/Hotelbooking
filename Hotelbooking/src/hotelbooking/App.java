@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  *
  * @author Ballistixd
+ * @editor TeamzFactor
  */
 public class App {
 
@@ -51,7 +52,7 @@ public class App {
             selecter = scn.nextInt();
             scn.nextLine();
             switch (selecter) {
-                case 1 -> {
+                case 1: {
                     boolean exited;
                     do {
                         int state = manageRoom();
