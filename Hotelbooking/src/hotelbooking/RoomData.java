@@ -5,12 +5,13 @@ import java.util.ArrayList;
 /**
  *
  * @author Ballistixd
+ * @editor TeamzFactor
  */
 public class RoomData {
-//    String[] roomid = new String[6];
+//    String[] roomid = new String[10];
 
     private ArrayList<Room> room;
-    private int[] roomID = {101, 102, 103, 104, 105, 106};
+    private int[] roomID = {101, 102, 103, 104, 105, 106, 107, 108, 109, 110};
 
     public RoomData() {
         room = new ArrayList<Room>();
