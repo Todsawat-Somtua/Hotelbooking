@@ -7,10 +7,10 @@ import java.util.ArrayList;
  * @author Ballistixd
  */
 public class RoomData {
-//    String[] roomid = new String[10];
+//    String[] roomid = new String[6];
 
     private ArrayList<Room> room;
-    private int[] roomID = {101, 102, 103, 104, 105, 106, 107, 108, 109, 110};
+    private int[] roomID = {101, 102, 103, 104, 105, 106};
 
     public RoomData() {
         room = new ArrayList<Room>();
