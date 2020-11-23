@@ -3,6 +3,7 @@ package hotelbooking;
 /**
  *
  * @author Ballistixd
+ * @author Supphakorn021
  */
 public class Room {
 
